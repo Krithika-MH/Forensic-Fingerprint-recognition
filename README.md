@@ -81,20 +81,6 @@ This hybrid architecture ensures **security, transparency, and scalability** wit
 
 ---
 
-## 📈 Performance Metrics
-
-| Dataset Type       | Accuracy |
-|--------------------|----------|
-| Real (Unaltered)   | 99.3%    |
-| Altered – Easy     | ~98%     |
-| Altered – Medium   | ~97%     |
-| Altered – Hard     | 96.2%    |
-
-- High precision, recall, and F1-score across all datasets
-- No observable performance degradation after blockchain integration
-
----
-
 ## 🔗 Blockchain Integration
 
 - **IPFS**: Stores fingerprint images, feature vectors, and matching results
@@ -110,7 +96,7 @@ Only essential references (CIDs) are stored on-chain, ensuring **privacy complia
 ## 🛠️ Technologies Used
 
 - **Python**
-- **TensorFlow / Keras**
+- **Pytorch**
 - **Siamese Neural Networks**
 - **SIFT Feature Extraction**
 - **IPFS**
@@ -121,10 +107,6 @@ Only essential references (CIDs) are stored on-chain, ensuring **privacy complia
 
 ---
 
-## 📄 Research Publication
-
-**Title:**  
-*Decentralized AI-Driven Forensic Fingerprint Recognition System*
 
 **Authors:**  
 - M. Krithika  
@@ -132,14 +114,6 @@ Only essential references (CIDs) are stored on-chain, ensuring **privacy complia
 - Thanush J  
 
 ---
-
-## 🔮 Future Enhancements
-
-- Improve scalability for large-scale forensic databases
-- Optimize blockchain transaction latency
-- Integrate advanced cryptographic protections
-- Explore alternatives to IPFS and Ethereum
-- Real-time deployment for law enforcement systems
 
 ---
 
